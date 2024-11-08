@@ -8,13 +8,44 @@
 <body>
     <form>
         <fieldset>
-            <legend>Persoanl Information</legend>
-            <lable for="name">Full Name(Thai):</lable>
-            <input type="text" id="name" name="name"><br><br>
-            <lable for="name">Full Name(English):</lable>
-            <input type="text" id="name" name="name"><br><br>
+            <legend>Persoanl Information</legend><br>
+            <label for="Tname">Full Name(Thai):</lable><br>
+            <input type="text" id="name" name="Tname" placeholder="Enter your name"><br><br>
+            <label for="Ename">Full Name(English):</lable><br>
+            <input type="text" id="name" name="Ename" placeholder="Enter your name"><br><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+            <label for="studentID">Student ID</label><br>
+            <input type="password" id="studentID" name="studentID" value="studentID" maxlength="10" placeholder="Enter your Student ID"><br><br>
+            <label for="fac">Choose your Faculty:</label>
+            <select id="fac" name="fac">
+                <option value="Sci">Faculty of Science</option>
+                <option value="Engi">Faculty of Engineering</option>
+                <option value="Health">Faculty of Faculty of Health Sciences</option>
+                <option value="Adm">Faculty of Administration</option>
+                <option value="Lag">Faculty of linguistics</option>
+                <option value="Soc">Faculty of Society</option>
+                <option value="Art">Faculty of Arts</option>
+            </select><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email"><br><br>
+            <label for="date">Choose your Date: </label>
+            <input type="date" id="date" name="date" value="date"><br><br>
+            <label for="Btype">Book Type:</label>
+            <select id="Btype" name="Btype">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select><br><br>
+            <input type="checkbox" id="notification" name="notification" value="yes">
+            <label for="notification">Do you want to receive library news and information via email?</label>
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Register">
         </fieldset>
     </form>
 </body>
