@@ -1,0 +1,30 @@
+body{
+    font-family: Roboto, Arial;
+    background-color: color-mix(in srgb, #6699FF, #CC66FF);
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    text-align: center;
+}
+.form-outer{
+    background-color: white;
+    display: grid;
+    padding: 30px 15px;
+}
+.register{
+    grid-column: 1 / 3;
+    font-size: 28px;
+    margin: 0;
+}
+.form-container{
+    background-color: white;
+    display: grid;
+    padding: 5px 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.submit, .notification{
+    grid-column: 1 / 3;
+}
